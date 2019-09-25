@@ -1,0 +1,9 @@
+from numpy import median
+def running_median(stream):
+  temp=[]
+  for i in range(len(stream)):
+    temp.append(stream[i])
+    print(median(temp))
+
+
+running_median([2,1,4,7,2,0,5])
