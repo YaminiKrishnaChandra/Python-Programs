@@ -1,0 +1,4 @@
+def partition_list(nums,k):
+   nums.sort()
+   print(nums)
+print(partition_list([2,2,2,5,2,2,2,5],3))
