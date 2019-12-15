@@ -1,0 +1,10 @@
+import collections
+def first_recurring_char(s):
+  c = collections.Counter(s)
+  print(c)
+  print(c.items())
+  for k, v in c.items():
+    if (v > 1):
+        print(k)
+first_recurring_char('qwertty')
+first_recurring_char('qwerty')
