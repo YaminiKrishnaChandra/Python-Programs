@@ -1,0 +1,8 @@
+def square_numbers(nums):
+  temp=[]
+  for i in range(len(nums)):
+    temp.append(nums[i]**2)
+  temp.sort()
+  return temp
+  
+print(square_numbers([-5, -3, -1, 0, 1, 4, 5]))
